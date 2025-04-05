@@ -22,8 +22,7 @@ This project is focused on building a regression model to **predict the actual f
 10. [Pipeline Creation](#pipeline-creation)  
 11. [User Prediction Flow](#user-prediction-flow)  
 12. [Model Serialization](#model-serialization)  
-13. [Future Improvements](#future-improvements)  
-14. [Author](#author)
+13. [Author](#author)
 
 ---
 
@@ -207,16 +206,6 @@ joblib.dump(model, 'model.pkl')
 ```
 
 - This `.pkl` file can be used later for predictions without retraining the model.
-
----
-
-## 🚀 Future Improvements
-
-- Add hyperparameter tuning (GridSearchCV or RandomizedSearchCV)
-- Train more advanced models: Random Forest, XGBoost, or Gradient Boosting
-- Feature expansion (day/night flag, weather, location zones)
-- Model deployment using Flask, Streamlit, or FastAPI
-- Create a web interface for user input and visualization
 
 ---
 
